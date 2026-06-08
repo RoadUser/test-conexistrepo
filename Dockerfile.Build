@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y nodejs npm
+WORKDIR /notebliss-contract
+RUN rm -rf ./*
+COPY package*.json /notebliss-contract/
+RUN npm install
+COPY src /notebliss-contract/src/
+RUN npm run buildLinux

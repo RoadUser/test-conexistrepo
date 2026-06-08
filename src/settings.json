@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "dbPath": "notes.db",
+    "dbScriptsFolderPath": "./dbScripts",
+    "postExecutionScriptName": "./post_exec.sh",
+    "newContractZipFileName": "./newContractData.zip"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "contract-tests",
+  "version": "1.0.0",
+  "main": "run-tests.js",
+  "license": "MIT",
+  "dependencies": {
+    "hotpocket-js-client": "0.5.7"
+  },
+  "scripts": {
+    "test": "node run-tests.js"
+  }
+}
